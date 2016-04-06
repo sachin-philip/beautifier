@@ -1,7 +1,7 @@
 Beautifier
 ------
 
-Simple library to cleanup and prittify url patterns, domains and so on.
+Simple library to cleanup and prettify url patterns, domains and so on.
 Library helps to clean unicodes, special charecters and unnessesary 
 redirection patterns from the urls and gives you clean date.
  
