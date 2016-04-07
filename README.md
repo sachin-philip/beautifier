@@ -22,13 +22,13 @@ pip install beautifier
 from beautifier import Email
 email = Email('me@imsach.in')
 
->> email.domain
+>>> email.domain
 'imsach.in'
 
->> email.username
+>>> email.username
  'me'
 
->> email.is_free_email
+>>> email.is_free_email
  False
 ``` 
 
@@ -39,13 +39,13 @@ email = Email('me@imsach.in')
 from beautifier import Url
 url = Url('https://in.linkedin.com/in/sachinphilip?authtoken=887nasdadasd6hasdtg21&secret=98jy766yhhuhnjk')
 
->> url.cleanup
+>>> url.cleanup
 'https://in.linkedin.com/in/sachinphilip'
 
->> url.domain
+>>> url.domain
  'in.linkedin.com'
 
->> url.param
+>>> url.param
  ['authtoken': '887nasdadasd6hasdtg21',
   'secret': '98jy766yhhuhnjk' ]
 ``` 
