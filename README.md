@@ -46,8 +46,8 @@ url = Url('https://in.linkedin.com/in/sachinphilip?authtoken=887nasdadasd6hasdtg
  'in.linkedin.com'
 
 >> url.param
- ['authtoken': 887nasdadasd6hasdtg21,
-  'secret': 98jy766yhhuhnjk ]
+ ['authtoken': '887nasdadasd6hasdtg21',
+  'secret': '98jy766yhhuhnjk' ]
 ``` 
 
 
