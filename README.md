@@ -14,38 +14,40 @@ redirection patterns from the urls and gives you clean date.
 pip install beautifier
 ```
 
+## Basic Usages
 
-### Basic Usage
-
-```python
-from beautifier import Beautifier
-beautifier = Beautifier()
-```
-
-**operations:** type of operations - email to domain, url to domain, url beautifier
-
-
-## Specific Functions
-
-*** email to domain ***
+#### Email Function
 
 ```python
-beautifier.emailToDomain(email="me@imsach.in")
-```
-OUT : 'imsach.in' 
+from beautifier import Email
+email = Email('me@imsach.in')
 
-*** email to domain ***
+>> email.domain
+'imsach.in'
+
+>> email.username
+ 'me'
+
+>> email.is_free_email
+ False
+``` 
+
+#### Url Function
+
 
 ```python
-beautifier.domainCleanup(url="https://www.imsach.in")
-```
-OUT : 'imsach.in' 
+from beautifier import Url
+url = Url('https://in.linkedin.com/in/sachinphilip?authtoken=887nasdadasd6hasdtg21&secret=98jy766yhhuhnjk')
 
-*** email to domain ***
+>> url.cleanup
+'https://in.linkedin.com/in/sachinphilip'
 
-```python
-beautifier.cleanUrl(url="https://imsach.in/?authtoken=887nasdadasd6hasdtg21&secret=98jy766yhhuhnjk")
-```
-OUT: 'https://imsach.in/'
+>> url.domain
+ 'in.linkedin.com'
+
+>> url.param
+ ['authtoken': 887nasdadasd6hasdtg21,
+  'secret': 98jy766yhhuhnjk ]
+``` 
 
 

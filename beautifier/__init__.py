@@ -14,7 +14,7 @@ class Email(object):
 		try:
 			sent = re.search('@.*', email).group().split(' ')[0]
 			self.domain = sent.split('@')[1]
-			self.username = sent.split('@')[0]
+			self.username = email.split('@')[0]
 			self.is_valid = True
 		except:
 			self.is_valid = False
@@ -54,7 +54,12 @@ class Url(object):
 
 	@property
 	def domain(self):
-	    return self.cleanup.replace("https://", "").replace("http://", "").replace("www.", "").replace("/", "")
+	    remove_pac =  self.cleanup.replace("https://", "").replace("http://", "").replace("www.", "")
+	    try:
+	    	return remove_pac.split('/')[0]
+	    except:
+	    	return
+
 	
 
 		
