@@ -27,6 +27,10 @@ class Email(object):
 		free_domains = free_domain_list.read().split('\n')
 		return True if self.domain in free_domains else False
 
+	@property
+	def has_site(self):
+	    return self._has_site
+	
 
 
 
@@ -60,9 +64,12 @@ class Url(object):
 	    except:
 	    	return
 
-	@propert
+	@property
 	def meta(self):
 	    return self.meta
+
+
+
 	
 
 	
