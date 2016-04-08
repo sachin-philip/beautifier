@@ -1,6 +1,6 @@
 import re
 
-__version__ = "0.3.0"
+__version__ = "0.3.1"
 
 		
 class Email(object):
@@ -59,6 +59,11 @@ class Url(object):
 	    	return remove_pac.split('/')[0]
 	    except:
 	    	return
+
+	@propert
+	def meta(self):
+	    return self.meta
+	
 
 	
 
