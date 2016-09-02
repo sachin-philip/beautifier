@@ -10,4 +10,5 @@ setup(name='beautifier',
       license='MIT',
       packages=['beautifier'],
       zip_safe=False,
+      include_package_data=True
       )
