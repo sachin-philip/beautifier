@@ -18,6 +18,8 @@ pip install beautifier
 
 #### Email Function
 
+EMAIL cleanup API's
+
 ```python
 from beautifier import Email
 email = Email('me@imsach.in')
@@ -33,6 +35,8 @@ email = Email('me@imsach.in')
 ``` 
 
 #### Url Function
+
+URL cleanup API's
 
 
 ```python
