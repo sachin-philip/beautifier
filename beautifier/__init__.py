@@ -1,7 +1,7 @@
 import re
 import os
 
-__version__ = "0.5.0"
+__version__ = "0.5.2"
 
 
 class Email(object):
@@ -22,7 +22,7 @@ class Email(object):
 
     @property
     def is_free_email(self):
-        free_domain_list = open("beautifier/helpers/free_domain_list.txt")
+        free_domain_list = open(os.path.dirname(os.path.abspath(__file__)) + "/helpers/free_domain_list.txt")
         free_domains = free_domain_list.read().split('\n')
         return True if self.domain in free_domains else False
 
