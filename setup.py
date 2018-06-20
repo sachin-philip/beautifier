@@ -16,7 +16,7 @@ setup(name='beautifier',
         packages=['beautifier'],
         zip_safe=False,
         include_package_data=True,
-        classifiers=(
+        classifiers=[
             'Development Status :: 5 - Production/Stable',
             "Programming Language :: Python :: 2.7",
             "Programming Language :: Python :: 3",
@@ -24,5 +24,5 @@ setup(name='beautifier',
             "Topic :: Software Development :: Libraries",
             "License :: OSI Approved :: MIT License",
             "Operating System :: OS Independent",
-        ),
+        ],
     )

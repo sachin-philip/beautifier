@@ -1,7 +1,7 @@
 import re
 import os
 
-__version__ = "0.5.2"
+__version__ = "0.5.5"
 
 
 class Email(object):
