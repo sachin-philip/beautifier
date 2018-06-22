@@ -3,8 +3,6 @@ name: Beautifier
 
 description: Simple library to cleanup and prettify url patterns and emails 
 
-avatar: https://camo.githubusercontent.com/4137db9c3a10a372872c64c31faed54f263e6c6f/687474703a2f2f636869747461676f6e6769742e636f6d2f2f696d616765732f6c61622d69636f6e2d706e672f6c61622d69636f6e2d706e672d362e6a7067
-
-title-img: https://camo.githubusercontent.com/4137db9c3a10a372872c64c31faed54f263e6c6f/687474703a2f2f636869747461676f6e6769742e636f6d2f2f696d616765732f6c61622d69636f6e2d706e672f6c61622d69636f6e2d706e672d362e6a7067
-
-logo : https://camo.githubusercontent.com/4137db9c3a10a372872c64c31faed54f263e6c6f/687474703a2f2f636869747461676f6e6769742e636f6d2f2f696d616765732f6c61622d69636f6e2d706e672f6c61622d69636f6e2d706e672d362e6a7067
+avatar: http://labtocat.github.io/beautifier/assets/logo.png
+title-img: http://labtocat.github.io/beautifier/assets/logo.png
+logo : http://labtocat.github.io/beautifier/assets/logo.png
