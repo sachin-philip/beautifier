@@ -1,7 +1,6 @@
-Reference-style: 
 ![alt text][logo]
 
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Beautifier"
+[logo]: http://chittagongit.com//images/lab-icon-png/lab-icon-png-6.jpg "Beautifier"
 
 Beautifier
 ------
