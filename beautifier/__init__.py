@@ -1,5 +1,6 @@
 import re
 import os
+from urllib.parse import urlsplit, urlunsplit
 
 __version__ = "0.5.5"
 
@@ -54,14 +55,19 @@ class Url(object):
         else:
             return {'msg': 'feature is currently available only with linkedin urls'}
 
+
+    @property
+    def scheme(self):
+        return urlsplit(self.cleanup).scheme
+
+    @property 
+    def path(self):
+        return urlsplit(self.cleanup).path
+
+
     @property
     def domain(self):
         """
         Return domain from the url
         """
-        remove_pac = self.cleanup.replace(
-            "https://", "").replace("http://", "").replace("www.", "")
-        try:
-            return remove_pac.split('/')[0]
-        except:
-            return None
+        return urlsplit(self.cleanup).netloc
