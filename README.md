@@ -1,7 +1,3 @@
-![alt text][logo]
-
-[logo]: http://chittagongit.com//images/lab-icon-png/lab-icon-png-6.jpg "Beautifier"
-
 Beautifier
 ------
 
