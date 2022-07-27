@@ -56,6 +56,17 @@ class UrlMethods(unittest.TestCase):
         '''
         self.assertEqual(self.url.domain, 'in.linkedin.com')
 
+    def test_url_scheme(self):
+        '''
+        Checks the url scheme is returned
+        '''
+        self.assertEqual(self.url.scheme, 'https')
+    
+    def test_url_path(self):
+        '''
+        Checks the url path is returned
+        '''
+        self.assertEqual(self.url.path, '/in/sachinphilip')
 
 if __name__ == '__main__':
     unittest.main()
